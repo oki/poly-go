@@ -1,4 +1,4 @@
-# koji-for-users
+# PolyGO
 
 Draw a zone on the map and download it as GeoJSON for import into [Kōji](https://github.com/TurtIeSocks/Koji).
 Client-side only (Vue 3 + Vite + Tailwind/daisyUI + Leaflet), installable as a PWA, UI in Polish or English based on browser language.

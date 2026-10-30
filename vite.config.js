@@ -10,8 +10,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Strefa dla mapy',
-        short_name: 'Strefa',
+        name: 'PolyGO',
+        short_name: 'PolyGO',
         description: 'Narysuj strefę i pobierz plik GeoJSON dla Kōji.',
         theme_color: '#ffffff',
         background_color: '#ffffff',

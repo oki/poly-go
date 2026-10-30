@@ -1,6 +1,6 @@
 const dict = {
   pl: {
-    title: 'Strefa dla mapy',
+    title: 'PolyGO',
     search: 'Szukaj adresu lub miejscowości',
     empty: 'Nic nie znaleziono.',
     error: 'Błąd wyszukiwania. Spróbuj ponownie.',
@@ -14,7 +14,7 @@ const dict = {
     file: 'strefa.geojson',
   },
   en: {
-    title: 'Map zone',
+    title: 'PolyGO',
     search: 'Search for an address or place',
     empty: 'Nothing found.',
     error: 'Search failed. Try again.',
