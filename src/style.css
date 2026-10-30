@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+}
+/* typeui "clean": one accent, white surface, near-black text, 8pt grid */
+@plugin "daisyui/theme" {
+  name: "clean";
+  default: true;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f9fafb;
+  --color-base-300: #e5e7eb;
+  --color-base-content: #111827;
+  --color-primary: #3b82f6;
+  --color-primary-content: #ffffff;
+  --color-secondary: #8b5cf6;
+  --color-secondary-content: #ffffff;
+  --color-neutral: #111827;
+  --color-neutral-content: #ffffff;
+  --color-success: #16a34a;
+  --color-success-content: #ffffff;
+  --color-warning: #d97706;
+  --color-warning-content: #ffffff;
+  --color-error: #dc2626;
+  --color-error-content: #ffffff;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  --size-field: 0.3125rem; /* 44px+ touch targets for .btn/.input */
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+html, body, #app { height: 100%; margin: 0; }
+body { font-family: Roboto, system-ui, sans-serif; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
